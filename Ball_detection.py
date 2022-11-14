@@ -94,6 +94,7 @@
  ​            ​time​.​sleep​(​60​) 
  ​    ​else​: 
  ​            ​print​ (​"no ball"​) 
+              ​s​.​write​(​0​) 
   
  ​    ​rawCapture​.​truncate​(​0​) 
  ​    ​if​ ​cv2​.​waitKey​(​1​) ​&​ ​0xFF​ ​==​ ​ord​(​'q'​): 
