@@ -69,7 +69,7 @@
  ​                ​cv2​.​circle​(​red​, (​x​, ​y​), ​r​, (​0​, ​255​, ​2​), ​3​) 
  ​                ​cv2​.​circle​(​red​, (​x​, ​y​), ​2​, (​0​, ​255​, ​255​), ​3​) 
  ​            ​print​(​"found red ball"​) 
- ​            ​s​.​write​(​R​) 
+ ​            ​s​.​write​(​51​) 
  ​            ​cv2​.​imshow​(​'RED'​,​red​) 
  ​            ​time​.​sleep​(​60​) 
   
@@ -79,7 +79,7 @@
  ​                ​cv2​.​circle​(​green​, (​x​, ​y​), ​r​, (​0​, ​255​, ​2​), ​3​) 
  ​                ​cv2​.​circle​(​green​, (​x​, ​y​), ​2​, (​0​, ​255​, ​255​), ​3​) 
  ​            ​print​(​"found green ball"​) 
- ​            ​s​.​write​(​G​) 
+ ​            ​s​.​write​(​50​) 
  ​            ​cv2​.​imshow​(​'GREEN'​,​green​) 
  ​            ​time​.​sleep​(​60​) 
   
@@ -89,7 +89,7 @@
  ​                ​cv2​.​circle​(​blue​, (​x​, ​y​), ​r​, (​0​, ​255​, ​2​), ​3​) 
  ​                ​cv2​.​circle​(​blue​, (​x​, ​y​), ​2​, (​0​, ​255​, ​255​), ​3​) 
  ​            ​print​(​"found blue ball"​) 
- ​            ​s​.​write​(​B​) 
+ ​            ​s​.​write​(​49​) 
  ​            ​cv2​.​imshow​(​'BLUE'​,​blue​) 
  ​            ​time​.​sleep​(​60​) 
  ​    ​else​: 
